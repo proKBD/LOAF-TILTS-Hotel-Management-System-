@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.upperbar
+{
+   width: 100vw;
+   height: 40px;
+   background: linear-gradient(rgb(25, 84, 88), rgb(12, 144, 177));
+   position: absolute;
+   top: 0;
+   left: 0;
+   right:0;
+    
+}
+body
+{
+    background: rgb(255, 255, 255);
+   
+    overflow-x: hidden;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 80px;
+    padding: 3% 2%;
+   
+   
+
+}
+
+h2
+{
+    padding-right: 200px;
+    font-family: Cinzel;
+    color: rgb(18, 104, 105);
+    text-shadow: 1px 2px 5px rgb(7, 69, 70);
+    font-size: 30px;
+}
+
+
+.nav-links 
+{
+    padding: 28px 0;
+
+
+}
+.nav-links li
+{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links li a
+{
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    padding: 0px 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav-links li a::after
+{
+    content: '';
+    background: rgb(14, 190, 146);
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    
+}
+.nav-links li a:hover::after
+{
+    width: 100%;
+
+}
+.btn
+{
+    background: rgb(3, 145, 133);
+    color: white;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgb(6, 181, 184) ;
+}
+
+.content
+{
+    font-family: Cinzel;
+    color: teal;
+    text-align: center;
+    padding-top: 1% 2%;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 4px  rgb(15, 20, 20);
+   
+}
+
+.slider
+{
+    width: 100%;
+    height: 620px;
+    margin-top: 93px;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    background-image: url(images/pexels-cottonbro-6474588.jpg);
+    background-size: 100% 120%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 10px 5px rgb(83, 88, 87);
+    animation: slides 20s  infinite  ;
+    animation-timing-function: cubic-bezier(5.0, 5.0, 5.0, 5.0)
+    
+    
+
+    
+}
+
+@keyframes slides
+{
+    0%{ background-image: url(images/pexels-cottonbro-6474588.jpg);}
+    20%{ background-image: url(images/pexels-helena-lopes-3215519.jpg);}
+    40%{  background-image: url(images/one.jpg);}
+    60%{ background-image: url(images/two.jpg);}
+
+    90%{ background-image: url(images/pexels-iván-rivero-1001965.jpg);}
+}
+
+.content1
+{
+    padding-top: 700px;
+}
+
+.heading1
+{
+   
+    
+    font-family:Cinzel ;
+    
+    color: rgb(19, 16, 16);
+    padding-left: 500px;
+}
+.line
+{
+    font-size: 25px;
+    text-shadow: none;
+    text-align: center;
+    padding-left: 50px;
+    margin-left: 30px;
+    text-decoration: orangered;
+    text-decoration-line: underline;
+    
+}
+
+#para1
+{
+    font-size: larger;
+    text-align: center;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Josefin Sans;
+    padding-top: 8px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 30px 30px 90px 30px;
+
+}
+
+.covid p
+{
+  text-align: center;
+  margin: 80px 100px 150px 100px;
+  font-size: 18px;
+  font-family: monospace;
+  color: #666666;
+}
+.covid a:hover
+{
+  color: red;
+  text-decoration: none;
+}
+
+
+.bannerbox
+{
+    box-shadow:0px 10px 10px -8px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    border-bottom:8px rgb(255, 237, 71) solid;
+    border-radius: 20px;
+    
+    width:90%;
+   
+    padding-left: 2px;
+    background: lightgoldenrodyellow;
+   
+    margin: 30px 0px 50px 50px;
+    cursor: pointer;
+}
+
+.bannerbox ul.bannerlist
+{
+   
+    padding-left: 140px;
+    padding-right: 80px;
+    list-style: none;
+    
+   
+    
+}
+
+ul.bannerlist li
+{
+   text-align: center;
+    display: inline-block;
+    width: 16%;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.bannerlist img
+{
+    width: 60px;
+}
+
+#listlogo
+{
+    font-size: 24px;
+    font-family: Cinzel;
+  border: lightseagreen;
+  border-width: 2px;
+  border-style: dashed;
+}
+
+.bgslideshow
+{
+  background-image: url(images/Loaf\ Tilts\ Awaits\ you.png);
+  
+  padding: 20px 20px;
+  padding-right: 50px;
+  margin: 0px 5px 0px 0px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
+}
+/* Slideshow container */
+.slideshow-container {
+    width: 75%;
+    margin: 10px;
+   box-shadow:3px 3px 10px 15px rgb(5, 5, 43);
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    padding-top: 70px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 20px 12px;
+    position: absolute;
+    max-width: 50%;
+    top: 60%;
+    right: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.562);
+  }
+
+  .text h3
+  {
+    font-family: Courgette;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-shadow:2px 2px rgba(231, 5, 5, 0.637);
+  }
+  .text p
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    
+  }
+
+  .mySlides img
+  {
+    animation: zoom 15s infinite ease-out ;
+    
+    border-radius: 40px;
+
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+   
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes zoom{
+    100%{
+      transform: scale(.93);
+    }
+
+   
+   
+  }
+
+.aftershow
+{
+  margin: 150px 80px 20px 80px ;
+  max-width: 80%;
+  align-items: center;
+  text-align: center;
+}
+.aftershow h1
+{
+  text-align: center;
+  padding-left: 180px;
+  font-size: 32px;
+  font-family:Poppins ;
+  color: rgb(12, 128, 99);
+}
+.aftershow p
+{
+  margin-top: 50px;
+  text-align: center;
+  padding-left: 180px;
+  font-family: Josefin Sans;
+  letter-spacing: 2px;
+  font-size: 19px;
+  font-weight: 700;
+  word-spacing: 5px;
+  line-height: 26px;
+}
+
+.containercard 
+{
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  max-width: 1200px;
+  padding-top: 200px;
+  
+  
+  padding-left: 120px;
+}
+.card img
+{
+  width: 90%;
+  height: 350px;
+}
+.card 
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 120px;
+  background: rgb(253, 253, 253);
+  margin-bottom: 60px;
+}
+.card h3
+{
+  margin-bottom: 40px;
+  font-family: poppins;
+  font-size: 28px;
+  
+}
+.card p
+{
+  font-family: Josefin Sans;
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 24px;
+  word-spacing: 2px;
+  font-weight: 600;
+  color: rgb(6, 11, 82);
+}
+.card>div
+{
+  padding: 30px;
+}
+.card:nth-child(even) img{
+  order: 2;
+}
+
+.btn:hover
+{
+  opacity: 0.8;
+
+
+}
+.btn  
+{
+  text-decoration: none ;
+}
+
+.footer ul
+{
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  margin-left: 480px;
+  list-style: none;
+  padding: 10px 20px;
+}
+.footer li
+{
+  padding: 10px 10px;
+}
+.footer h2
+{
+  font-size: 24px;
+  color: black;
+  text-shadow: rgb(100, 100, 100);
+  text-align: center;
+  margin-left: 140px;
+  margin-bottom: 60px;
+  margin-top: 200px;
+  padding-top: 40px;
+}
+.footer p
+{
+  text-align: center;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 100px;
+}
+#lastone
+{
+  text-align: center;
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 60px;
+
+}
+.footer
+{
+  background: rgba(205, 206, 203, 0.329);
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.footer img:hover
+{
+  background-color: rgb(238, 245, 146);
+}
+
+#offers
+{
+  position: relative;
+  width: 1400px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: black;
+  height: 520px;
+  margin-bottom: 100px;
+  
+  
+}
+#offers .ocard 
+{
+  position: relative;
+  max-width: 300px;
+  height: 115px;
+  background-color: white;
+  margin: 30px 20px;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px 10px rgba(88, 87, 87, 0.644);
+  transition: 0.3s ease-in-out;
+}
+
+#offers .ocard:hover
+{
+  height: 350px;
+}
+
+#offers .ocard .oimage 
+{
+  width: 260px;
+  height: 260px;
+  position: relative;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  
+}
+
+#offers .ocard .oimage img
+{
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+#offers .ocard .ocontent
+{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px 10px rgba(14, 9, 9, 0.568);
+}
+
+#offers .ocard:hover .ocontent
+{
+  visibility: visible;
+  opacity: 1;
+  margin-top:-40px ;
+  transition-delay:0.3s ;
+}
+
+.ocontent h3
+{
+  font-family:Courgette ;
+  font-size: 20px;
+}
+
+.kya
+{
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  padding-top: 30px;
+  width: 1500px;
+  margin-top: 180px;
+  
+  
+}
+.kya h2
+{
+  word-spacing: 3px;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 42px;
+  padding-left: 50px;
+  text-decoration: aqua;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+}

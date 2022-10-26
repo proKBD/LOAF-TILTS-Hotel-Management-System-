@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: var(--primary-color);
+}
+.hotellogo
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+
+:root
+{
+   --primary-color: #fdf6d0;
+   --secondary-color: #212121;
+}
+.darktheme
+{
+    --primary-color: #141414;
+   --secondary-color: #fdf6d0;
+    
+}
+
+
+.iconlogo img{
+   width: 2%;
+   height: 40px;
+   position: absolute;
+   top: 5%;
+   left: 80%;
+   cursor: pointer;
+}
+.covidimg
+{
+   padding-left: 590px;
+   padding-top: 60px;
+}
+
+.topbanner
+{
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.topbanner h1
+{
+    font-family:Michroma ;
+    font-size: 34px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: center;
+    text-decoration: rgb(255, 81, 0) ;
+    text-decoration-line: underline;
+    text-decoration-thickness: 8px;
+    color: var(--secondary-color);
+   
+}
+.first
+{
+    margin: 120px 90px 50px 120px;
+}
+.first h2
+{
+    font-size: 32px;
+    font-family: Poppins;
+    margin: 20px 20px;
+    text-decoration:rgb(6, 2, 248) ;
+    text-decoration-line: underline;
+    color: var(--secondary-color);
+}
+.first p
+{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 20px;
+    word-spacing: 5px;
+    line-height: 25px;
+    color: var(--secondary-color);
+}
+span
+{
+    color: orangered;
+}
+
+.banner
+{
+    margin: 120px 90px 50px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    box-shadow: 0px 1px 13px 2px gray;
+    border-radius: 8px;
+    border-bottom:8px rgb(255, 71, 15) solid;
+}
+.banner h2
+{
+    font-family: poppins;
+    margin: 20px 50px;
+    font-size: 26px;
+    color: var(--secondary-color);
+
+}
+.banner h4
+{
+  font-family: Varela Round;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+.boxcontainer
+{
+    display: flex;
+    padding: 70px, 40px;
+    float: left;
+    margin: 120px 90px 50px 120px;
+}
+.boxcontainer .contain1
+{
+    width: 50%;
+    border-left: 8px #fc5000 solid;
+    
+    box-shadow: 0px 1px 13px 2px gray;
+    border-radius: 7px;
+    padding: 15px 10px;
+    font-size: 15px !important;
+    font-family: "Roboto",sans-serif;
+    line-height: 180%;
+    font-weight: 300;
+    position: relative;
+}
+
+.contain1 p
+{
+    width: 80%;
+    color: var(--secondary-color);
+    padding-top: 10px;
+}
+
+.contain1 .logo 
+{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0;
+    display: block;
+}
+
+.boxcontainer .contain2
+{
+    width: 50%;
+    border-left: 8px #f14d0c solid;
+    
+    box-shadow: 0px 1px 13px 2px gray;
+    padding: 15px 10px;
+    font-size: 15px !important;
+    font-family: "Roboto",sans-serif;
+    line-height: 180%;
+    font-weight: 300;
+    position: relative;
+}
+.contain2 p
+{
+    width: 80%;
+   padding-top: 10px;
+    color: var(--secondary-color);
+}
+.contain2 .logo
+{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0;
+    display: block;
+}
+.contain2 .logo img
+{
+    max-width: 100%;
+}
+
+.contain1 h3 , .contain2 h3{
+    color: rgb(100, 100, 255);
+}
